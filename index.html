@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Class 13</title>
+    <title>Bootstrap UOMO</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -37,7 +38,7 @@
               <a class="nav-link" aria-current="page" href="#">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SHOP</a>
+              <a class="nav-link" href="#productsPart">SHOP</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">COLLECTION</a>
@@ -53,35 +54,289 @@
             </li>
           </ul>
           <div class="menuIcons">
-						<img src="images/search.svg" alt="search icon">
-						<img src="images/user.svg" alt="user icon">
-						<img src="images/heart.svg" alt="heart icon">
-						<img src="images/bag.svg" alt="bag icon">
-						<img src="images/bars.svg" alt="bars icon">
-					</div>
+            <img src="images/search.svg" alt="search icon" />
+            <img src="images/user.svg" alt="user icon" />
+            <img src="images/heart.svg" alt="heart icon" />
+            <img src="images/bag.svg" alt="bag icon" />
+            <img src="images/bars.svg" alt="bars icon" />
+          </div>
         </div>
       </div>
     </nav>
     <!-- Header Part End -->
 
     <!-- Banner Part Start -->
-     <section id="bannerPart">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <a href="#">
-                <img src="images/banner.png" alt="banner" class="img-fluid">
-              </a>
+    <section id="bannerPart">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <a href="#">
+              <img src="images/banner.png" alt="banner" class="img-fluid" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Banner Part End -->
+
+    <!-- Ads Part Start -->
+    <section id="adsPart">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <a href="#">
+              <picture
+                ><img
+                  src="images/1.png"
+                  alt="model_one.png"
+                  class="img-fluid w-100"
+              /></picture>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a href="#">
+              <picture
+                ><img
+                  src="images/2.png"
+                  alt="model_two.png"
+                  class="img-fluid w-100"
+              /></picture>
+            </a>
+            <div class="row mt-4">
+              <div class="col-lg-6">
+                <a href="#">
+                  <picture
+                    ><img
+                      src="images/3.png"
+                      alt="model_three.png"
+                      class="img-fluid w-100"
+                  /></picture>
+                </a>
+              </div>
+              <div class="col-lg-6">
+                <a href="#">
+                  <picture
+                    ><img
+                      src="images/4.png"
+                      alt="model_four.png"
+                      class="img-fluid w-100"
+                  /></picture>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-     </section>
-    <!-- Banner Part End -->
+      </div>
+    </section>
+    <!-- Ads Part End -->
 
+    <!-- Products Part Start -->
+    <section id="productsPart">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 m-auto text-center">
+            <div class="productTitle">
+              <h3>OUR TRENDY <b>PRODUCTS</b></h3>
+            </div>
+            <div class="filterBtn d-flex justify-content-center">
+              <button class="filter">ALL</button>
+              <button class="filter">NEW ARRIVALS</button>
+              <button class="filter">BEST SELLER</button>
+              <button class="filter">TOP RATING</button>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <!-- Row 1 -->
+          <div class="col-lg-3">
+            <div class="productItem">
+              <img
+                src="images/image 7.png"
+                alt="image 1"
+                class="w-100 img-fluid"
+              />
+              <div class="productText">
+                <div
+                  class="category d-flex justify-content-between align-items-center mt-3"
+                >
+                  <h4>Dresses</h4>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="my-2">Cropped Faux Leather Jacket</h3>
+                <h3>$29</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="productItem">
+              <img
+                src="images/image 11.png"
+                alt="image 2"
+                class="w-100 img-fluid"
+              />
+              <div class="productText">
+                <div
+                  class="category d-flex justify-content-between align-items-center mt-3"
+                >
+                  <h4>Dresses</h4>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="my-2">Calvin Shorts</h3>
+                <h3>$62</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="productItem">
+              <img
+                src="images/image 9.png"
+                alt="image 3"
+                class="w-100 img-fluid"
+              />
+              <div class="productText">
+                <div
+                  class="category d-flex justify-content-between align-items-center mt-3"
+                >
+                  <h4>Dresses</h4>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="my-2">Kirby T-Shirt</h3>
+                <h3>$17</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="productItem">
+              <img
+                src="images/image 10.png"
+                alt="image 4"
+                class="w-100 img-fluid"
+              />
+              <div class="productText">
+                <div
+                  class="category d-flex justify-content-between align-items-center mt-3"
+                >
+                  <h4>Dresses</h4>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="my-2">Cableknit Shawl</h3>
+                <div class="price d-flex">
+                  <h3 class="oldPrice me-1" style="color: #767676">$129</h3>
+                  <h3 class="newPrice" style="color: red">$99</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Row 2 -->
+          <div class="col-lg-3 mt-4">
+            <div class="productItem">
+              <img
+                src="images/image 12.png"
+                alt="image 5"
+                class="w-100 img-fluid"
+              />
+              <div class="productText">
+                <div
+                  class="category d-flex justify-content-between align-items-center mt-3"
+                >
+                  <h4>Dresses</h4>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="my-2">Colorful Jacket</h3>
+                <h3>$29</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-4">
+            <div class="productItem">
+              <img
+                src="images/image 11-1.png"
+                alt="image 6"
+                class="w-100 img-fluid"
+              />
+              <div class="productText">
+                <div
+                  class="category d-flex justify-content-between align-items-center mt-3"
+                >
+                  <h4>Dresses</h4>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="my-2">Shirt In Botanical Cheetah Print</h3>
+                <h3>$62</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-4">
+            <div class="productItem">
+              <img
+                src="images/image 14.png"
+                alt="image 7"
+                class="w-100 img-fluid"
+              />
+              <div class="productText">
+                <div
+                  class="category d-flex justify-content-between align-items-center mt-3"
+                >
+                  <h4>Dresses</h4>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="my-2">Cotton Jersey T-Shirt</h3>
+                <h3>$17</h3>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-4">
+            <div class="productItem">
+              <img
+                src="images/image 13.png"
+                alt="image 8"
+                class="w-100 img-fluid"
+              />
+              <div class="productText">
+                <div
+                  class="category d-flex justify-content-between align-items-center mt-3"
+                >
+                  <h4>Dresses</h4>
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <h3 class="my-2">Zessi Dresses</h3>
+                <div class="price d-flex">
+                  <h3 class="oldPrice me-1" style="color: #767676">$129</h3>
+                  <h3 class="newPrice" style="color: red">$99</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-3 m-auto text-center">
+            <div class="seeAll">
+              <a href="#">See All Products</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Part End -->
 
+    <!-- Countdown Part Start -->
+    <section id="countdownPart"></section>
+    <!-- Countdown Part End -->
 
+    <!-- Ads Part Start -->
+    <!-- Ads Part End -->
 
+    <!-- Ads Part Start -->
+    <!-- Ads Part End -->
 
+    <!-- Ads Part Start -->
+    <!-- Ads Part End -->
+
+    <!-- Ads Part Start -->
+    <!-- Ads Part End -->
+
+    <!-- Ads Part Start -->
+    <!-- Ads Part End -->
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-1.12.4.min.js.js"></script>

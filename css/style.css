@@ -32,6 +32,7 @@ p {
 
 /* Common CSS End */
 
+/* Menu Part */
 .nav-link {
   position: relative;
   text-transform: uppercase;
@@ -85,3 +86,101 @@ p {
   column-gap: 30px;
   align-items: center;
 }
+
+/* Ads Part Start */
+#adsPart {
+  padding-top: 100px;
+  padding-bottom: 95px;
+  padding-left: 255px;
+  padding-right: 255px;
+}
+
+/* Ads Part End */
+
+/* Products Part Start */
+#productsPart {
+  padding-top: 95px;
+  padding-bottom: 100px;
+}
+
+.productTitle h3 {
+  font-weight: 400;
+  font-size: 35px;
+  color: #222222;
+  padding-bottom: 30px;
+}
+
+.filterBtn {
+  gap: 30px;
+}
+
+.filter {
+  position: relative;
+  border: none;
+  background: transparent;
+  color: #777;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.4s;
+}
+
+.filter::after {
+  position: absolute;
+  height: 2px;
+  width: 0;
+  background: #222222;
+  content: "";
+  left: 50% !important;
+  bottom: -2px;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: 0.2s;
+}
+
+.filter:hover.filter::after {
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+}
+
+.filterBtn button:hover {
+  color: #222;
+}
+
+.category h4 {
+  color: #767676;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+
+.productText h3 {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 400 !important;
+}
+
+.seeAll a {
+  font-size: 14px !important;
+  font-weight: 500;
+  color: #222222;
+  border-bottom: 2px solid #222;
+  display: inline-block;
+  margin-top: 65px;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+}
+/* Products Part End */
+
+/* Countdown Part Start */
+#countdownPart {
+  padding-top: 360px;
+  padding-bottom: 45px;
+  background: url("../images/deal_off_week.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* Countdown Part End */
